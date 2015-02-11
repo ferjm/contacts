@@ -10,6 +10,7 @@
     "fxos-mvc": "git@github.com:fxos/mvc.git",
     "gaia-header": "gaia-components/gaia-header",
     "gaia-list": "gaia-components/gaia-list",
-    "gaia-button": "gaia-components/gaia-button"
+    "gaia-button": "gaia-components/gaia-button",
+    "fxos-appglue": "*"
   }
 }
