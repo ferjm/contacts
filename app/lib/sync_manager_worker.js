@@ -91,6 +91,7 @@
         ensureValidDBRemoteEndpoint(dbRemoteEndpoint);
 
         var remoteDBAddress = dbRemoteEndpoint + dbName;
+        console.log('STOPSYNC ' + dbName + ' ' + remoteDBAddress);
         if (!syncHandles.has(remoteDBAddress)) {
           resolve();
           return;
@@ -101,6 +102,7 @@
         clearInterval(syncHandle);
         syncHandles.delete(remoteDBAddress);
 
+        console.log('STOPPED SYNCING');
         resolve();
       } catch(e) {
         reject(e);

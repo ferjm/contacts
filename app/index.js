@@ -62,4 +62,17 @@
     });
   });
 
+  // XXX temporary.
+  var fxa = document.getElementById('fxa');
+  fxa.addEventListener('click', () => {
+    Accounts.profile ? Accounts.signOut() : Accounts.signIn();
+  });
+
+  Accounts.addEventListener('login', () => {
+    fxa.textContent = 'Logout';
+  });
+
+  Accounts.addEventListener('logout', () => {
+    fxa.textContent = 'Login';
+  });
 })();

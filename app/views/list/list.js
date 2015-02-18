@@ -3,6 +3,7 @@
          onDomReady,
          debounce,
          RenderCache
+         Accounts
 */
 
 var debug = 1 ? console.log.bind(console, '[LIST]') : function(){};

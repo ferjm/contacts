@@ -14,6 +14,12 @@
     <script defer src="utils.js"></script>
     <script defer src="components/runtime-bridge/client.js"></script>
     <script defer src="cache/contract.js"></script>
+    <script defer src="event_dispatcher.js"></script>
+    <script defer src="app_config.js"></script>
+    <script defer src="components/fxa-relier-client/fxa-relier-client.js"></script>
+    <script defer src="async_storage.js"></script>
+    <script defer src="fxa/profile_storage.js"></script>
+    <script defer src="fxa/accounts_client.js"></script>
     <script defer src="index.js"></script>
     <style>
 
@@ -67,6 +73,7 @@
       <h1></h1>
       <a></a>
       <button data-icon="settings"></button>
+			<button id="fxa">Login</button>
     </gaia-header>
 
     <div class="main">
