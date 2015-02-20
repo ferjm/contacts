@@ -34,7 +34,7 @@ function onSaveClick() {
   // of cache exposed to sharedworkers, we can do this on that 'server'
   // side.
   
-  RenderCache.evictList().then(() => {
+//  RenderCache.evictList().then(() => {
     controller.save(data).then(function(contact) {
       debug('Contact saved successfully', data);
       var link = document.getElementById('link');
@@ -43,7 +43,7 @@ function onSaveClick() {
     }, function() {
       debug('Error occurred while saving contact', data);
     });
-  });
+//  });
 }
 
 function getFormData() {

@@ -1,0 +1,14 @@
+{
+  "name": "fxa-relier-client",
+  "homepage": "https://github.com/mozilla/fxa-relier-client",
+  "version": "0.0.4",
+  "_release": "0.0.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.4",
+    "commit": "b641af4f72b77ab334db6247d9b66d36596e709d"
+  },
+  "_source": "https://github.com/mozilla/fxa-relier-client.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/mozilla/fxa-relier-client.git"
+}
